@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html manifest="Assignment1.Adelina.manifest">
+<head>
+<title>Offline Web Application</title>
+<script>
+function changeImage()
+{
+document.images["jsbutton"].src= "Images/first.gif";
+return true;
+}
+function changeImageMore()
+{
+document.images["jsbutton"].src= "Images/second.gif";
+return true;
+}
+</script>
+</head>
+<body>
+<img name="jsbutton" src="Images/second.gif" width="25%" height="25%" border="0">
+<br><input type=button onclick="changeImage()" value="gifone"></input>
+&nbsp;&nbsp;<input type=button onclick="changeImageMore()" value="giftwo"></input>
+</body>
+</html>
